@@ -1,0 +1,64 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <title>Document</title>
+    <script src="weather.js"></script>
+  </head>
+  <body>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col mt-6 m-auto">
+                    <h3 class="text-center mb-3">
+                        City Weather forecast
+                    </h3>
+                    <div class="form-group">
+                        <input type="text" id="textid" class="form-control form-control-lg" placeholder="Enter city name">
+                        <button type="button" class="btn btn-outline-success btn-lg btn-block mt-3" onclick="getWeather()">Search</button>
+                        
+
+
+                    </div>
+                    
+                    
+                </div>
+              
+            </div>
+
+            <div id="parent">
+                <div
+                  style="
+                    display: none;
+                    height: 100px;
+                    border-color: yellow;
+                    border: 1px solid yellow;
+                    color: white;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 3px;
+                  "
+                  
+                >
+                  Sample 30
+                </div>
+              </div>
+            
+        </div>
+
+
+
+
+
+
+
+    
+  </body>
+</html>
