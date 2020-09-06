@@ -1,0 +1,18 @@
+<input
+  type="text"
+  placeholder="Enter userame here "
+  [formControl]="nameControl"
+/>
+<button [disabled]="!nameControl.valid" (click)="readFormValue()">
+  Register
+</button>
+
+<div>{{ nameControl.value }} / {{ nameControl.valid }}</div>
+
+<app-page1></app-page1>
+
+<app-page2></app-page2>
+
+<app-page3></app-page3>
+
+<app-page4></app-page4>
